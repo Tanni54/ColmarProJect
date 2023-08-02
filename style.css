@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comfortaa', cursive;
+    font-size: 1rem;
+}
+/* Nav */
+nav {
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    /* height: 4rem; */
+    margin: 1rem 0rem 1rem 1.5rem;
+}
+.hide{
+    display: none;
+}
+.group-data h1{
+    font-weight: 500;
+    font-size: 1.5rem;
+    color:#464646;
+    background-color: #dfdfdf;
+    margin: 0.6rem 0.5rem;
+    padding: 1rem 0rem 1.5rem 1rem;
+    
+}
+.group-data {
+    display: none;
+    
+}
+nav .logo {
+    display:flex;
+    
+}
+nav .menu-logo {
+    display:none;
+    
+}
+.logo p , .logo span{
+    font-size: 2rem;
+  
+}
+.logo img {
+    height: 3rem;
+}
+.menu a {
+    padding-left: 1rem;
+}
+a{
+    text-decoration: none;
+    color: #252525;
+}
+.menu{
+    margin-right: 1.5rem;
+}
+
+/* First Container  */
+.picture-hide{
+    display: none;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(216, 216, 216);
+}
+.container .image{
+    width: 60%;
+    height: 100%;
+}
+.container .image img{
+    width: 100%;
+    padding: 2rem 1.5rem 2rem 1.5rem;
+}
+.container .text{
+    width: 40%;
+    padding-left: 2rem;
+}
+.container .text .box {
+    width: 65%;
+}
+.container .text h1{
+    font-size: 2.2rem;
+    color: #494949;
+}
+.container .text .button-gray p{
+    font-size: 1.5rem;
+}
+.container .text  .button-gray:hover{
+    background-color: #303030;
+    
+}
+.container .text h3{
+    margin-top: 1rem;
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #585858;
+}
+.container .text .button-gray{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.5rem;
+    width: 60%;
+    color: azure;
+    background-color: #585858;
+    cursor:pointer;
+}
+.container .text .button-gray p{
+    font-size: 1.5rem;
+}
+.container .text  .button-gray:hover{
+    background-color: #303030;
+    
+}
+/* Middle Container */
